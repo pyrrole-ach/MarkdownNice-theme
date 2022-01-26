@@ -1,0 +1,331 @@
+/* 雅紫 */
+
+/* 全局属性 */ 
+#nice {
+  font-family: arial, "times new roman", "pingfangSC light", "microsoft yahei";
+  font-size: 14px;
+  color: #262626;
+  word-spacing: 0.8px;
+  letter-spacing: 0.8px;
+}
+
+/* 段落 */
+
+#nice p {    
+  font-size:14px;
+  line-height: 1.6rem;
+  word-spacing: .05rem;
+}
+
+#nice h2,
+#nice h3,
+#nice h4,
+#nice h5,
+#nice h6{
+  font-family: 'times new roman', arial, "simsun", "pingfangSC light", "microsoft yahei";
+}
+
+/* 一级标题 */
+
+#nice h1 {
+  text-align: center;
+  font-size: 32px;
+  line-height: 1.2;
+  margin: 2.8rem auto 2.2rem;
+  color:#532476;
+}
+
+/* 二级标题 */
+
+#nice h2 {
+  text-align: left;
+  font-size: 26px;
+  margin: 2rem auto 1.6rem;
+  color: #262626;
+}
+
+#nice h2 .content {
+  border-bottom: 5px double  #8C3FC5;
+  padding: .1rem .3rem;
+}
+
+/* 三级标题 */
+
+#nice h3:before {
+  content: '> ';
+  color: #8C3FC5;
+}
+
+#nice h3 {
+  margin: 1.4rem auto 1rem;
+  font-size: 22px;
+  border-left: none;
+  border-radius: 0;
+  border-bottom: 1px solid #8C3FC5;
+  margin: 1.8rem auto 1.4rem;
+  padding: 0 .1rem;
+}
+
+/* 四级标题 */
+
+#nice h4 {
+  font-size: 18px;
+  margin: 1.6rem auto 1.2rem;
+  border-left: 4px solid #8C3FC5;
+  border-radius: 3px;
+  padding: 0 .2rem;
+}
+
+/* 五级标题 */
+
+#nice h5 {
+  font-size: 16px;
+  color: #8C3FC5;
+  margin: 1.2em auto 1rem;
+}
+
+/* 六级标题 */
+
+#nice h6 {
+  font-size: 16px;
+  color: #262626;
+  margin: 1.2em auto 1rem;
+}
+
+/* 列表 */
+
+#nice ol,
+#nice ul {
+  padding-left: 25px;
+  margin: .5rem 0;
+}
+  
+#nice ol>li,
+#nice ul>li {
+  color: #532476;
+}
+  
+#nice ol>li>*,
+#nice ul>li>* {
+  color: #333;
+  font-weight: normal;
+}
+  
+#nice ul {
+  list-style-type: circle;
+}
+  
+#nice ul ul,
+#nice ol ul{
+  list-style-type: disc;  
+}
+  
+#nice ul ul ul,
+#nice ol ul ul,
+#nice ol ol ul,
+#nice ul ol ul{
+  list-style-type: square;  
+}
+  
+/* 列表内容，不要设置li*/
+
+#nice li section {
+}
+
+/* 引用*/
+
+#nice .multiquote-1 {
+  border: 1px dashed #86648B;
+  border-radius: 6px;
+  margin: 2rem auto;
+  padding: 1.5rem 1rem;
+  box-shadow: 4px 4px 6px 1px #B2B2B2;
+  font-family:  Arial, "kaiti","pingfangSC light", "microsoft yahei" !important;
+  background:#FCFAFC;
+}
+
+/* 引用文字 */
+
+#nice .multiquote-1 p {
+  color: #808080 !important;
+}
+
+/* 链接 */
+
+#nice a {
+  color: #8C3FC5;
+  font-family: arial, simsun, 'microsoft yahei';
+  text-decoration: none;
+  padding:.2rem .1rem;
+  border-bottom:none;
+}
+
+#nice a:hover {
+  color: #8C3FC5;
+  font-family: arial, simsun, 'microsoft yahei';
+  text-decoration: underline;
+}
+
+/* 加粗 */
+
+#nice strong {
+  padding: 0 2px;
+  color: #7131a2;
+  font-weight: 700;
+}
+
+/* 斜体 */
+
+#nice em {
+}
+
+/* 加粗斜体 */
+
+#nice em strong {
+  background-color: #9BE9B3;
+  padding: 2px 4px;
+  margin: 0 2px;
+  font-style:normal;
+  font-weight:normal;
+  color: #262626;
+}
+
+/* 删除线 */
+
+s {
+  padding: 1px 2px !important;
+  text-decoration: line-through #f0504a !important;
+  color:#808080 !important;
+}
+
+/* 下划线 */
+
+u {
+  text-decoration: underline #8B3CC6;
+}
+
+/* 分隔线*/
+
+#nice hr {
+  height:1px;
+  padding:0;
+  border:none;
+  text-align:center;
+  background-image:linear-gradient(to right,rgba(255,255,255,0),rgba(208,140,206,0.8),rgba(255,255,255,0));
+  margin: 2rem auto;
+}
+
+/* 图片 */
+
+#nice img {
+    max-width: 90% ;
+    margin:1.2rem auto;
+    border-radius: 6px;
+    box-shadow: 2px 3px 6px 2px #8C8C8C;
+    border: none !important;
+}
+
+/* 图片描述文字 */
+
+#nice figcaption {
+}
+
+/* 行内代码 */
+
+#nice p code, #nice li code {
+  color: #8B3CC6;
+  background-color: rgba(241,237,243,0.2);
+  font-family: 'LM Mono 10','Times New Roman',Arial, simsun, 'pingfangSC light', sans-serif;
+  font-size: 0.875rem;
+  box-sizing: border-box;
+  margin: 0 4px;
+  padding: 0 2px;
+  border-radius: 2px;
+  box-shadow: 0 0 .8px .8px #ead3e4;
+}
+
+/* 非微信代码块
+ * 代码块不换行 display: -webkit-box !important;
+ * 代码块换行 display: block;
+ */
+
+#nice pre code {
+}
+
+/* 表格 */
+#nice table {
+  margin: 0 auto;
+  padding: 0;
+  word-break: initial;
+}
+
+#nice table tr th {
+  border: 1px solid #a569d2;
+  background-color: transparent; 
+  color: #8C3FC5;
+  padding: 5px 8px;
+}
+
+#nice table tr td {
+  border: 1px solid #a569d2;
+  padding: 5px 8px;
+}
+
+#nice table tr:nth-of-type(n) {
+  background-color: transparent; 
+}
+
+/* 脚注文字 */
+
+#nice .footnote-word {
+  color: #262626;
+  font-weight:normal;
+  font-size:14px;
+}
+
+/* 脚注上标 */
+
+#nice .footnote-ref {
+  color: #b481d9;
+}
+
+/* "参考资料"四个字 
+ * 内容 content: "参考资料";
+ */
+
+#nice .footnotes-sep:before {
+  content: "参考资料";
+  border-bottom:1px solid #8C3FC5;
+  margin:1px 0;
+}
+
+/* 参考资料编号 */
+
+#nice .footnote-num {
+  color:#8C3FC5;
+  opacity: 1 !important;
+  font-family: arial;
+  width: 7% !important;
+}
+
+/* 参考资料文字 */
+
+#nice .footnote-item p { 
+}
+
+/* 参考资料解释 */
+
+#nice .footnote-item p em {
+  font-family: optima;
+  font-style: normal;
+}
+
+/* 行间公式 */
+
+#nice .block-equation svg {
+}
+
+/* 行内公式 */
+
+#nice .inline-equation svg {  
+}
